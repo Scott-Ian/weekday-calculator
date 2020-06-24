@@ -1,8 +1,8 @@
 # _Weekday Calculator_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application will take a date from the user and let them know what day of the week it is, 6/24/2020_
 
-#### By _**{List of contributors}**_
+#### By _**Ian Scott, Ben Russell**_
 
 ## Description
 
@@ -13,16 +13,6 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 1. Behavior: The program will accept a user input and store it in a date object.
   * Input: 3/14/1990
   * Output: Date: 3/14/1990
-  * isComplete: _False_
-
-2. Behavior: The program will check if a date is valid.
-  * Input: 3/14/1990
-  * Output: Valid Date
-  * isComplete: _False_
-
-3. Behavior: The program will not accept invalid dates.
-  * Input: 300/45/-19
-  * Output: Invalid Date
   * isComplete: _False_
 
 4. Behavior: The program will be able to identify and return the day of the month.
@@ -38,6 +28,16 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 6. Behavior: The program will be able to identify and return the year.
   * Input: 2/23/2020
   * Output: Year: 2020
+  * isComplete: _False_
+
+2. Behavior: The program will check if a date is valid.
+  * Input: 3/14/1990
+  * Output: Valid Date
+  * isComplete: _False_
+
+3. Behavior: The program will not accept invalid dates.
+  * Input: 300/45/-19
+  * Output: Invalid Date
   * isComplete: _False_
 
 7. Behavior: The program will return the day of the week.

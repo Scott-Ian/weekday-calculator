@@ -18,7 +18,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 4. Behavior: The program will be able to identify and return the day of the month.
   * Input: 2/23/2020
   * Output: Day: 23
-  * isComplete: _False_
+  * isComplete: _True_
 
 5. Behavior: The program will be able to identify and return the month.
   * Input: 2/23/2020

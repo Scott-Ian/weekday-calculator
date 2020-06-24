@@ -15,5 +15,7 @@ describe('Weekday', () => {
     expect(reusableDate.month).toBe(3)
   });
 
-
+  test('should identify the day number', () => {
+    expect(reusableDate.day).toBe(14);
+  });
 });

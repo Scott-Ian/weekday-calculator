@@ -14,5 +14,6 @@ export class Weekday {
   parseDate() {
     const parsedDates = this.dateString.split("/");
     this.month = parseInt(parsedDates[0]);
+    this.day = parseInt(parsedDates[1]);
   }
 };

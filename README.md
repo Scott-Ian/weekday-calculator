@@ -25,7 +25,22 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
   * Output: Invalid Date
   * isComplete: _False_
 
-4. Behavior: The program will return the day of the week.
+4. Behavior: The program will be able to identify and return the day of the month.
+  * Input: 2/23/2020
+  * Output: Day: 23
+  * isComplete: _False_
+
+5. Behavior: The program will be able to identify and return the month.
+  * Input: 2/23/2020
+  * Output: Month: February
+  * isComplete: _False_
+
+6. Behavior: The program will be able to identify and return the year.
+  * Input: 2/23/2020
+  * Output: Year: 2020
+  * isComplete: _False_
+
+7. Behavior: The program will return the day of the week.
   * Input: 3/14/1990
   * Output: Wednesday
   * isComplete: _False_

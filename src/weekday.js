@@ -45,4 +45,26 @@ export class Weekday {
       return false;
     }
   }
+
+  dayOfWeek() {
+    let dayOfWeek = new Date (this.year, this.month, this.day, 14, 40, 32);
+    let day = dayOfWeek.getDay();
+    
+    switch (day) {
+      case (2):
+        return "Sunday";        
+      case (3):
+        return "Monday";
+      case (4):
+        return "Tuesday";
+      case (5):
+        return "Wednesday";
+      case (6):
+        return "Thursday";
+      case (0):
+        return "Friday";
+      case (1):
+        return "Saturday";
+    }    
+  }
 };

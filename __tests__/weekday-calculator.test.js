@@ -5,12 +5,14 @@ describe('Weekday', () => {
   let illegalDate1;
   let illegalDate2;
   let today;
+  let sunday;
 
   beforeEach(() => {
     reusableDate = new Weekday("3/14/2020");
     illegalDate1 = new Weekday("13/40/2020");
     illegalDate2 = new Weekday("Juneteenth, 2020!");
     today = new Weekday("6/24/2020");
+    sunday = new Weekday ("6/28/2020")
   });
 
   test('should accept and store a user input date', () => {
@@ -39,7 +41,8 @@ describe('Weekday', () => {
   });
 
   test('should correctly return the day of the week for a given date', () => {
-    expect(today.getDay()).toBe("Wednesday");    
+    expect(today.dayOfWeek()).toBe("Wednesday");
+    expect(sunday.dayOfWeek()).toBe("Sunday");    
   });
 
 });

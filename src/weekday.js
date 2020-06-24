@@ -6,12 +6,10 @@ export class Weekday {
 
     this.parseDate();
     this.isValidDate = this.validateDate();
-    
+
     this.month;
     this.day;
     this.year;
-
-    this.dayOfWeek;
   }
 
   parseDate() {

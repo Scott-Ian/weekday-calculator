@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This project takes in a date in the format of month/day/year, and returns the day of the week of the date submitted._
 
 ## Specification
 
@@ -47,32 +47,31 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+### Open via Bash/Gitbash
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+1. _Download this repository onto your computer:_
+2. _Navigate into the weekday-calculator directory in VS Code or text editor of choice._
+3. _Run npm install in terminal._
+4. _Run npm run build and npm run start to launch a live server._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_This program has an error with the day returned due to the JS's Date.prototype.getDay(); returning unexpected values. We believe this to be due to how JS's Date object handles timezones upon instantiation. Due to time constraints this project has not been fully refactored, cleaned, or styled._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you would like to reach out regarding potential improvements, other bugs, or just to chat, please contact the authors through GitHub_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _jQuery_
+* _Javascript_
+* _NPM_
+* _Web Pack_ 
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-https://choosealicense.com/
-https://en.wikipedia.org/wiki/MIT_License
-https://en.wikipedia.org/wiki/GNU_General_Public_License
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Ian Scott, Ben Russell, Michael Petersen_** under the MIT licensce.

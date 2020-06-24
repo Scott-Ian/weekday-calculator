@@ -2,9 +2,15 @@ import { Weekday } from './../src/weekday.js';
 
 describe('Weekday', () => {
   let reusableDate;
+  let illegalDate1;
+  let illegalDate2;
+  let today;
 
   beforeEach(() => {
     reusableDate = new Weekday("3/14/2020");
+    illegalDate1 = new Weekday("13/40/2020");
+    illegalDate2 = new Weekday("Juneteenth, 2020!");
+    today = new Weekday("6/24/2020");
   });
 
   test('should accept and store a user input date', () => {
@@ -28,7 +34,12 @@ describe('Weekday', () => {
   });
 
   test('should correctly identify if an invalid date is invalid', () => {
-    expect(reusableDate.isValidDate).toBe(false);
+    expect(illegalDate1.isValidDate).toBeFalsy();
+    expect(illegalDate2.isValidDate).toBeFalsy();
   });
-  
+
+  test('should correctly return the day of the week for a given date', () => {
+    expect(today.getDay()).toBe("Wednesday");    
+  });
+
 });

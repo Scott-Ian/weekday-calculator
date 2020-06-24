@@ -15,30 +15,30 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
   * Output: Date: 3/14/1990
   * isComplete: _True_
 
-4. Behavior: The program will be able to identify and return the day of the month.
+2. Behavior: The program will be able to identify and return the day of the month.
   * Input: 2/23/2020
   * Output: Day: 23
   * isComplete: _True_
 
-5. Behavior: The program will be able to identify and return the month.
+3. Behavior: The program will be able to identify and return the month.
   * Input: 2/23/2020
   * Output: Month: February
   * isComplete: _True_
 
-6. Behavior: The program will be able to identify and return the year.
+4. Behavior: The program will be able to identify and return the year.
   * Input: 2/23/2020
   * Output: Year: 2020
   * isComplete: _True_
 
-2. Behavior: The program will check if a date is valid.
+5. Behavior: The program will check if a date is valid.
   * Input: 3/14/1990
   * Output: Valid Date
-  * isComplete: _False_
+  * isComplete: _True_
 
-3. Behavior: The program will not accept invalid dates.
+6. Behavior: The program will identify invalid dates.
   * Input: 300/45/-19
   * Output: Invalid Date
-  * isComplete: _False_
+  * isComplete: _True_
 
 7. Behavior: The program will return the day of the week.
   * Input: 3/14/1990

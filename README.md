@@ -13,7 +13,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 1. Behavior: The program will accept a user input and store it in a date object.
   * Input: 3/14/1990
   * Output: Date: 3/14/1990
-  * isComplete: _False_
+  * isComplete: _True_
 
 4. Behavior: The program will be able to identify and return the day of the month.
   * Input: 2/23/2020

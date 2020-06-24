@@ -11,5 +11,9 @@ describe('Weekday', () => {
     expect(reusableDate.dateString).toBe("3/14/2020");
   });
 
+  test('should identify the month number',  ()=> {
+    expect(reusableDate.month).toBe(3)
+  });
+
 
 });

@@ -18,4 +18,8 @@ describe('Weekday', () => {
   test('should identify the day number', () => {
     expect(reusableDate.day).toBe(14);
   });
+
+  test('should identify the year number', () => {
+    expect(reusableDate.year).toBe(2020);
+  });
 });

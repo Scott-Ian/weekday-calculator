@@ -43,7 +43,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 7. Behavior: The program will return the day of the week.
   * Input: 3/14/1990
   * Output: Wednesday
-  * isComplete: _False_
+  * isComplete: _True_
 
 ## Setup/Installation Requirements
 

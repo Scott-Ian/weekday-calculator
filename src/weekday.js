@@ -1,4 +1,3 @@
-
 export class Weekday {
   
   constructor(dateString) {

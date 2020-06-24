@@ -23,12 +23,12 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 5. Behavior: The program will be able to identify and return the month.
   * Input: 2/23/2020
   * Output: Month: February
-  * isComplete: _False_
+  * isComplete: _True_
 
 6. Behavior: The program will be able to identify and return the year.
   * Input: 2/23/2020
   * Output: Year: 2020
-  * isComplete: _False_
+  * isComplete: _True_
 
 2. Behavior: The program will check if a date is valid.
   * Input: 3/14/1990

@@ -22,4 +22,13 @@ describe('Weekday', () => {
   test('should identify the year number', () => {
     expect(reusableDate.year).toBe(2020);
   });
+
+  test('should correctly identify if a valid date is valid', () => {
+    expect(reusableDate.isValidDate).toBe(true);
+  });
+
+  test('should correctly identify if an invalid date is invalid', () => {
+    expect(reusableDate.isValidDate).toBe(false);
+  });
+  
 });
